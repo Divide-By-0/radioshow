@@ -352,10 +352,11 @@ header {
     display: -ms-flexbox;
     display: -webkit-flex;
     display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    -webkit-flex-wrap: wrap;
-    -moz-flex-wrap: wrap; }
+    margin-right:0;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-flex-wrap: nowrap;
+    -moz-flex-wrap: nowrap; }
     #colorlib-hero .hero-flex .col-three-forth {
       width: 60%;
       z-index: -1;
@@ -376,7 +377,7 @@ header {
       bottom: 0;
       left: 0;
       right: 0;
-      font-size: 220px;
+      font-size: 150px;
       text-align: right;
       color: #f2f2f2;
       font-weight: 700; }
@@ -594,6 +595,7 @@ header {
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  margin-right: 0;
   -webkit-flex-wrap: wrap;
   -moz-flex-wrap: wrap;
   width: 100%;
